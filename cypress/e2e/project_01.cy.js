@@ -103,9 +103,7 @@ describe("testCase01",() => {
       cy.get('.mt-5').should('have.text', 'Thanks for submitting!');
   
       cy.on('uncaught:exception', () => {
-        return false
-
-   
+        return false;   
        
     });
   });
